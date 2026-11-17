@@ -1,0 +1,1 @@
+{"name":"vibecard-ai","version":"2.0.0","private":true,"type":"module","scripts":{"test":"npm run lint && npm run test:seo","lint":"node --check api/generate.js && node --check js/app.js && node --check js/fallback.js","test:seo":"node test/seo.test.js"}}
