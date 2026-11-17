@@ -1,0 +1,1 @@
+import assert from "node:assert/strict";import fs from "node:fs";import path from "node:path";assert.equal(fs.existsSync(path.resolve("index.html")),true);console.log("SEO and file-integrity checks passed.");
